@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Space Mono", monospace;
+    }
+
+
+    .contents,header{
+      width: 95vw;
+      margin: 265px auto;
+      max-width: 100%;
+    }
+
+   .contents{
+     margin:170px auto 0;
+   }
+
+   header{
+     margin:0 auto;
+   }
+.members{
+  display:flex;
+  flex-wrap: wrap;
+   -ms-flex-pack: distribute;
+justify-content: space-around;
+-ms-flex-line-pack: distribute;
+    align-content: space-around;
+  width: 60%;
+    margin:0 auto;
+}
+.member_box{
+position: relative;
+width: 30%;
+height: 426.5px;
+display: inline-block;
+/* background: url(image.png); */
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+
+.member_box:nth-child(2){
+  margin-top:120px;
+}
+
+.member_box img{
+  width:85%;
+}
+.message{
+width: 439px;
+height: 87px;
+left: 736px;
+top: 147px;
+float:right;
+}
+.job{
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 55px;
+    right: -50px;
+    transform-origin: center center 0;
+}
+@media (max-width: 800px) {
+  * {
+        max-width: 100%;
+      }
+}
